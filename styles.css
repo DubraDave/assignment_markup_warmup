@@ -1,3 +1,101 @@
+header {
+  width: 100%;
+  font-size: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  background-color: #333; }
+  header p {
+    color: white;
+    text-align: left; }
 
+aside {
+  display: inline-block;
+  background-color: red;
+  border-radius: 10px; }
+
+div {
+  border-radius: 10px;
+  padding: 10px; }
+  div .container {
+    background-color: black; }
+  div .main-header {
+    background-color: green; }
+    div .main-header h1, div .main-header h2 {
+      text-align: center; }
+    div .main-header h1 {
+      font-weight: bold;
+      font-size: 130%; }
+    div .main-header h2 {
+      font-style: italic; }
+  div .articles article {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #A2C4C9;
+    border: 1px solid black; }
+    div .articles article h1 {
+      font-style: bold;
+      text-align: center; }
+    div .articles article h2 {
+      font-size: 10px;
+      text-align: center; }
+    div .articles article h3 {
+      font-size: 13px;
+      font-style: italic;
+      font-weight: bold; }
+    div .articles article p {
+      font-size: 10px; }
+
+footer {
+  float: left;
+  margin-top: 15px;
+  background-color: #9FC5F8;
+  padding: 10px; }
+
+@media (min-width: 1025px) {
+  footer, .main-header {
+    max-width: 990px;
+    border: 1px solid black;
+    border-radius: 10px; }
+
+  .main-header {
+    margin-top: 5px; } }
+@media (max-width: 1024px) {
+  footer {
+    width: 100%;
+    border-top: 1px solid black;
+    left: 0; }
+
+  .main-header {
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    left: 0; } }
+@media (min-width: 1025px) {
+  aside {
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 250px;
+    height: 400px;
+    float: left;
+    display: table;
+    background-color: #D5A6BD;
+    border: 1px solid black; }
+    aside div {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center; }
+    aside img {
+      width: 200px;
+      height: 200px; } }
+@media (min-width: 1025px) {
+  .main-container {
+    max-width: 990px; } }
+@media (max-width: 1024px) {
+  .main-container {
+    max-width: 100%;
+    width: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */
